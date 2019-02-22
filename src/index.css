@@ -12,3 +12,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 700px;
+}
+
+main p {
+  background-color: #f8ffff;
+  color: #276f86;
+  padding: 20px 10px;
+  box-shadow: 0 0 0 1px #a9d5de inset, 0 0 0 0 transparent;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+footer a:visited,
+footer a:visited {
+  color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    max-width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
